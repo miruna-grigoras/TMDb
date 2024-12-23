@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    background-color: #FFC0CB; /* Roz pentru fundal */
+    color: #4B0082; /* Indigo pentru text */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+input, button {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #FF69B4; /* Roz cyan pentru butoane și input */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 1rem;
+    background-color: #FFB6C1; /* Roz deschis pentru elementele de listă */
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    color: #4B0082; /* Indigo pentru text */
+}
+
+h1 {
+    color: #730e44; /* Roz intens pentru titluri */
+}
